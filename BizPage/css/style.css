@@ -1057,14 +1057,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #clients {
-  padding: 60px 0;
+  /*padding: 60px 0;*/
 }
 
 #clients img {
-  max-width: 100%;
+  height: 100%;
+  padding: 15px 30px;
   opacity: 0.5;
   transition: 0.3s;
-  padding: 15px 0;
 }
 
 #clients img:hover {
