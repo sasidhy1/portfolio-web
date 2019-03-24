@@ -29,21 +29,22 @@
 
   <style type="text/css">
 
-.tagline {
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.1;
-}
+	.tagline {
+	  font-size: 2rem;
+	  font-weight: 300;
+	  line-height: 1.1;
+	}
 
-.intro-subtitle {
-  font-size: 2.5rem;
-  font-weight: 300;
-}
+	.intro-subtitle {
+	  font-size: 2.5rem;
+	  font-weight: 300;
+	}
 
-.text-slider-items {
-  display: none;
-}
+	.text-slider-items {
+	  display: none;
+	}
 
+}
 
   </style>
 
@@ -56,6 +57,37 @@
 </head>
 
 <body>
+
+<style type="text/css">
+
+@media screen and (max-width: 1024px) {
+	#header #logo h1 {
+		font-size: 24px;
+		padding-top: 2px;
+	}
+}
+
+@media screen and (max-width: 769px) {
+
+	.section-header h3	{
+		font-size:22px;
+	}
+
+	.card-header {
+		font-size:16px;
+	}
+
+	#call-to-action h3 {
+		font-size:22px;
+	}
+
+	#header #logo h1 {
+		font-size: 20px;
+		padding-top: 5px;
+	}
+}
+
+</style>
 
   <!--==========================
     Header
@@ -132,6 +164,50 @@
 				<p class="tagline">Hello, world! You've found my résumé.</p>
 				<p class="intro-subtitle"><span class="text-slider-items">3D CAD modeling,Data visualization,Database management,Machine learning algorithms,Artificial neural networks,Big data analytics,Distributed computing,Fullstack web development,Automated webscraping,Intuitive UI design,Robust computer vision,</span><strong class="text-slider"></strong></p>
                 <a href="#featured-services" class="btn-get-started scrollto">Onward</a>
+
+
+<style type="text/css">
+
+/*.list-social {
+	position: fixed;
+	left:0px;
+	bottom:0px;
+}*/
+
+.list-social li {
+  float: left;
+  margin: 10px;
+	  opacity: 0.8;
+}
+
+.list-social li i {
+  color: #fff;
+  font-size: 20px;
+}
+
+.list-social li:hover {
+  transition: 0.3s;
+	  opacity: 1;
+}
+
+.list-social li:hover i{
+  color:#18d26e;
+  transition: 0.3s;
+}
+
+
+</style>
+				<br>
+                <div class="d-flex">
+				  <ul class="list-inline mx-auto list-social">
+			          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+			          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+			          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+			          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+			          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
+			          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+			        </ul>
+			    </div>
               </div>
             </div>
           </div>
@@ -306,6 +382,12 @@
 	text-decoration: underline;
 }
 
+@media screen and (max-width: 700px) {
+
+	#call-to-action .cta-btn {
+		font-size: 12px;
+	}
+
 </style>
 
     <!--==========================
@@ -313,8 +395,10 @@
     ============================-->
     <section id="call-to-action" class="wow fadeIn">
       <div id="shadow" class="container text-center">
-        <h3>Résumé/C.V.</h3>
-        <p>The folks over at <a href="">JSON Resume</a> have developed an open source JSON-based standard for résumés. A complete profile of my professional background, academic projects, and technical skills can be viewed here.</p>
+        <header class="section-header">
+	        <h3>Résumé/C.V.</h3>
+	        <p>The folks over at <a href="">JSON Resume</a> have developed an open source JSON-based standard for résumés. A complete profile of my professional background, academic projects, and technical skills can be viewed here.</p>
+	    </header>
         <a class="cta-btn" href="#">My JSON Résumé</a>
       </div>
     </section><!-- #call-to-action -->
@@ -379,35 +463,52 @@
 							</div>
 				        </div>
 
+<style type="text/css">
+
+		.sep {
+			display:none;			
+		}	
+
+	@media screen and (max-width: 767px) {
+		.sep {
+			width: 100%;
+			display:block;			
+		}	
+	}
+
+</style>
+
+<hr class="sep">
+
 				      	<div class="col-md-6">
 					        <div class="skills-content">
 
 					          <div class="progress">
-					            <div class="progress-bar bg-new" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+					            <div class="progress-bar bg-changeon bg-new" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
 					              <span class="skill">SQL<i class="val">95%</i></span>
 					            </div>
 					          </div>
 
 					          <div class="progress">
-					            <div class="progress-bar bg-success progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+					            <div class="progress-bar bg-changeon bg-success progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
 					              <span class="skill">NoSQL<i class="val">90%</i></span>
 					            </div>
 					          </div>
 
 					          <div class="progress">
-					            <div class="progress-bar bg-new" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+					            <div class="progress-bar bg-changeon bg-new" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
 					              <span class="skill">VBA<i class="val">80%</i></span>
 					            </div>
 					          </div>
 
 					          <div class="progress">
-					            <div class="progress-bar bg-success progress-bar-striped" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+					            <div class="progress-bar bg-changeon bg-success progress-bar-striped" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
 					              <span class="skill">HTML/CSS<i class="val">85%</i></span>
 					            </div>
 					          </div>
 
 					          <div class="progress">
-					            <div class="progress-bar bg-new" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+					            <div class="progress-bar bg-changeon bg-new" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
 					              <span class="skill">Ruby<i class="val">75%</i></span>
 					            </div>
 					          </div>
@@ -425,12 +526,14 @@
 		</div>
 
 
+
+
 <style type="text/css">
 	
 .owl-carousel .owl-item img {
 	-webkit-transform-style: none !important;
 }
-
+.owl-carousel .owl-stage { display: flex; align-items: center; }
 /*.owl-stage-outer {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -445,7 +548,7 @@
 	      		<div class="card">
 					<h5 class="card-header text-center">Select Software</h5>
 		      		<div class="card-body">
-				        <div class="owl-carousel clients-carousel">
+				        <div class="owl-carousel owl-centered clients-carousel">
 							<img src="img/software/excel.png" alt="">
 							<img src="img/software/mysql.png" alt="">
 							<img src="img/software/hadoop.png" alt="">
@@ -471,6 +574,14 @@
 		color:white;
 	}
 
+@media screen and (max-width: 1096px) {
+
+	.badge {
+		font-size: 10px;
+	}
+
+}
+
 </style>
 
         <div class="row">
@@ -487,8 +598,6 @@
 		      		</div>
 	      		</div><br>
 
-
-
 	      		<div class="card">
 					<h5 class="card-header text-center">Big Data Analytics</h5>
 		      		<div class="card-body text-center">
@@ -500,6 +609,9 @@
 	      		</div>
 
 	        </div>
+
+<hr class="sep">
+
 	      	<div class="col-md-6">
 
 	      		<div class="card">
@@ -527,48 +639,6 @@
       </div>
     </section>
 
-    <!--==========================
-      Facts Section
-    ============================-->
-    <section id="facts"  class="wow fadeIn">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Flavor of the Month</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </header>
-
-        <div class="row counters">
-
-  				<div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">274</span>
-            <p>Clients</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">421</span>
-            <p>Projects</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1,364</span>
-            <p>Hours Of Support</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">18</span>
-            <p>Hard Workers</p>
-  				</div>
-
-  			</div>
-
-        <div class="facts-img">
-          <img src="img/facts-img.png" alt="" class="img-fluid">
-        </div>
-
-      </div>
-    </section><!-- #facts -->
-
 <style type="text/css">
 		
 @media screen and (max-width: 1200px) {
@@ -592,7 +662,7 @@
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
+          <h3 class="section-title">Portfolio</h3>
         </header>
 
         <div class="row">
@@ -600,34 +670,36 @@
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-ml">ML</li>
+              <li data-filter=".filter-viz">Viz</li>
+              <li data-filter=".filter-code">Code</li>
+              <li data-filter=".filter-design">Design</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-ml wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/framingham.jpg" class="img-fluid" alt="">
+                <a href="img/works/framingham.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
                 <h4><a href="#">Cardiovascular Risk Prediction</a></h4>
-                <p>App</p>
+                <p>ML App</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-code filter-ml wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/sleepy.jpg" class="img-fluid" alt="">
+                <a href="img/works/sleepy.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -638,11 +710,11 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-viz wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/medicare.jpg" class="img-fluid" alt="">
+                <a href="img/works/medicare.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -653,26 +725,26 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-viz wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/ntsb.jpg" class="img-fluid" alt="">
+                <a href="img/works/ntsb.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
                 <h4><a href="#">NTSB Aviation Accidents Data</a></h4>
-                <p>Card</p>
+                <p>Tableau Viz</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-code wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/ct.jpg" class="img-fluid" alt="">
+                <a href="img/works/ct.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -683,11 +755,11 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-code wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/emg.jpg" class="img-fluid" alt="">
+                <a href="img/works/emg.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -698,11 +770,11 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-viz wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/citibike.jpg" class="img-fluid" alt="">
+                <a href="img/works/citibike.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -713,11 +785,11 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/mnist.jpg" class="img-fluid" alt="">
+                <a href="img/works/mnist.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -728,11 +800,11 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/cath.jpg" class="img-fluid" alt="">
+                <a href="img/works/cath.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -743,11 +815,11 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/tesi.jpg" class="img-fluid" alt="">
+                <a href="img/works/tesi.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -758,11 +830,11 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/stl.jpg" class="img-fluid" alt="">
+                <a href="img/works/stl.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -773,11 +845,11 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-code wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/cell_count.jpg" class="img-fluid" alt="">
+                <a href="img/works/cell_count.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -788,11 +860,11 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/lymph.jpg" class="img-fluid" alt="">
+                <a href="img/works/lymph.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -803,11 +875,11 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="img/works/scaffold.jpg" class="img-fluid" alt="">
+                <a href="img/works/scaffold.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -829,36 +901,8 @@
       <div class="container">
 
         <div class="section-header">
-          <h3>Contact Us</h3>
+          <h3>Get In Touch</h3>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
-            </div>
-          </div>
-
         </div>
 
         <div class="form">
@@ -919,11 +963,9 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Freehold, NJ 07728<br>
+              United States<br>
+              <strong>Email:</strong> sasidhy1@gmail.com<br>
             </p>
 
             <div class="social-links">

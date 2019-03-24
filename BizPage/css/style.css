@@ -658,7 +658,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.80);
+  background: rgba(255, 255, 255, 0.50);
   z-index: 9;
 }
 
@@ -787,7 +787,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/facts-bg.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -905,7 +905,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #portfolio {
+  background: url("../img/call-to-action-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 0 0;
+  position: relative;
   padding: 60px 0;
+}
+
+#portfolio h3 {
+  /*color:white;*/
+}
+
+#portfolio::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.75);
+  z-index: 9;
+}
+
+#portfolio .container {
+  position: relative;
+  z-index: 10;
 }
 
 #portfolio #portfolio-flters {
