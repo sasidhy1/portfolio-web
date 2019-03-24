@@ -147,7 +147,7 @@ h6 {
 }
 
 #header #logo h1 {
-  font-size: 34px;
+  font-size: 28px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -613,7 +613,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
 }
 
-#featured-services i {
+#featured-services ion-icon {
   color: #18d26e;
   font-size: 48px;
   display: inline-block;
@@ -658,7 +658,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.80);
   z-index: 9;
 }
 
@@ -697,7 +697,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
 }
 
-#about .about-col i {
+#about .about-col ion-icon {
   font-size: 36px;
   line-height: 1;
   color: #fff;
@@ -708,7 +708,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #fff;
 }
 
-#about .about-col:hover i {
+#about .about-col:hover ion-icon {
   color: #18d26e;
 }
 
@@ -754,7 +754,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   float: left;
 }
 
-#services .icon i {
+#services .icon ion-icon {
   color: #18d26e;
   font-size: 36px;
   line-height: 1;
